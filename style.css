@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.darkmatter{
+    height: 80px;
+    background-color: black;
+   
+}
+
+.matter{
+    color: grey;
+}
+
+
+
+.darkmatter h1{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover{
+    color: grey;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: grey;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136,169,0);
+}
+
+.logo{
+    height: 60px;
+}
+
+.me_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    height: 60vh;
+}
+
+.img, .my_name{
+    margin-top: 100px;
+    margin: 20px;
+    width: 50%;
+    
+}
+
+.img img{
+    height: 65vh;
+    filter: drop-shadow(5px 8px 9px rgba(0, 0, 0, 0.805));
+    margin-left: 90px;
+  
+    
+}
+
+
+.my_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name_animation{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    padding-left: 4vw;
+    overflow: hidden;
+    color: white;
+}
+
+/* .name_animation .box {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background: #2800ad;
+    width: 200px;
+    height: 7vw;
+    z-index: -1;
+} */
